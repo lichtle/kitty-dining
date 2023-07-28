@@ -1,0 +1,39 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #972121;
+}
+
+.nav .nav-link.active {
+  background-color: #fff;
+  color: #1d1d1d;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+@media (min-width: 641px) and (max-width: 1023px) {
+  li {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  li {
+    margin-top: 10px;
+  }
+}
