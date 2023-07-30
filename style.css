@@ -1,5 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+h2,
+h3 {
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+
+.section-title {
+  font-family: "Great Vibes", cursive;
 }
 
 .navbar {
@@ -19,11 +30,22 @@ body {
 
 .navbar-brand {
   font-size: 40px;
-  font-family: "Great Vibes", cursive;
 }
 
 .navbar-toggler {
   background-color: #fff;
+}
+
+.section-title span {
+  color: #ca2828;
+}
+
+#sobre {
+  background-color: #131313;
+}
+
+.container-sobre img {
+  object-fit: cover;
 }
 
 @media (min-width: 641px) and (max-width: 1023px) {
