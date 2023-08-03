@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #fff;
 }
 
 h2,
@@ -17,14 +16,15 @@ h3 {
   background-color: #972121;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
   background-color: #fff;
   color: #1d1d1d;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
   color: #fff;
 }
 
@@ -36,16 +36,29 @@ h3 {
   background-color: #fff;
 }
 
-.section-title span {
+.colored-text {
   color: #ca2828;
-}
-
-#sobre {
-  background-color: #131313;
 }
 
 .container-sobre img {
   object-fit: cover;
+}
+
+#sobre, #cardapio {
+  background-color: #202020;
+  color: #fff;
+}
+
+#eventos div h3 {
+  font-size: 30px;
+}
+
+.nav-cardapio .nav-link.active {
+  background-color: #ca2828;
+}
+
+.nav-cardapio .nav-link:hover {
+  color: #ff3131;
 }
 
 @media (min-width: 641px) and (max-width: 1023px) {
