@@ -44,7 +44,8 @@ h3 {
   object-fit: cover;
 }
 
-#sobre, #cardapio {
+#sobre,
+#cardapio {
   background-color: #202020;
   color: #fff;
 }
@@ -53,22 +54,55 @@ h3 {
   font-size: 30px;
 }
 
-.nav-cardapio .nav-link.active {
+.nav-cardapio .nav-link.active,
+#contato button {
   background-color: #ca2828;
+  color: #fff;
 }
 
 .nav-cardapio .nav-link:hover {
   color: #ff3131;
 }
 
-@media (min-width: 641px) and (max-width: 1023px) {
-  li {
-    margin-top: 10px;
-  }
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
 }
 
 @media (max-width: 640px) {
-  li {
-    margin-top: 10px;
+  .carousel-item img {
+    height: 280px;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  aside {
+    padding-bottom: 1rem;
+  }
+
+  h5 {
+    padding: 0.3rem 0;
+  }
+
+  form {
+    padding-bottom: 2rem;
+  }
+
+  form button {
+    width: 100%;
+  }
+
+  #contato div.col-md-5 {
+    text-align: center;
   }
 }
